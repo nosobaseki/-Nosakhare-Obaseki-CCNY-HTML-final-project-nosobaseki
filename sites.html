@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cards Gallery</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
+	<link rel="shortcut icon" href="images/favicon.png">
+
+
+	<style>
+		.gallery-block{
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+
+.gallery-block .heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.gallery-block .heading h2{
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.gallery-block.cards-gallery h6 {
+  font-size: 17px;
+  font-weight: bold; 
+}
+
+.gallery-block.cards-gallery .card{
+  transition: 0.4s ease; 
+}
+
+.gallery-block.cards-gallery .card img {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15); 
+}
+
+.gallery-block.cards-gallery .card-body {
+  text-align: center; 
+}
+
+.gallery-block.cards-gallery .card-body p {
+  font-size: 15px; 
+}
+
+.gallery-block.cards-gallery a {
+  color: #212529; 
+}
+
+.gallery-block.cards-gallery a:hover {
+  text-decoration: none; 
+}
+
+.gallery-block.cards-gallery .card {
+  margin-bottom: 30px; 
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width: 576px) {
+
+	.gallery-block .transform-on-hover:hover {
+	    transform: translateY(-10px) scale(1.02);
+	    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important; 
+	}
+}
+.nav{
+	background-color: #ffffff;
+	color:#000000;
+	list-style: none;
+	text-align: right;
+	padding: 20px 0 25px 0;}
+	.nav > li{
+		display: inline-block;
+		padding:0 25px 0 25px;
+	    font-family: "Chalkduster", fantasy;
+	    font-size: 15px;
+	}
+		.nav > li > a {
+			text-decoration: none;
+			color:#000000;
+			float: right;}
+	.nav > li > a:hover{
+		color:#c1c1c1;}
+	}
+	}
+}
+.logo {
+	color:#000000;
+	float: left;
+	padding-left:25px;
+	font-size:16px;
+	font-weight: bold;
+}
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: white;
+   color: black;
+   text-align: center;
+   font-family:"Chalkduster", fantasy;
+}
+footer a {
+    text-decoration: none;
+}
+	</style>
+</head>
+<body>
+	<ul class="nav">
+    <!-- <div class="logo">
+    <a href="#">NYC</a>
+  </div> -->
+       
+    
+    <li><a href="sport.html">Sports</a></li>
+    <li><a href="sites.html">Places</a></li>
+    <li><a href="gallery.html"> Food</a></li>
+    <li><a href="index.html"> Home</a></li>
+    <li style="float:right; font-weight:bold; font-size:40px; padding-bottom:50px;"><a href="#">NYC</a></li>
+  </ul>
+	
+	<section class="gallery-block cards-gallery">
+	    <div class="container">
+	        <div class="heading">
+	          <h1 style="font-family:Chalkduster, fantasy;">Places to Visit</h1>
+	        </div>
+	        <div class="row">
+	            <div class="col-md-6 col-lg-4">
+	                <div class="card border-0 transform-on-hover">
+	                	<a class="lightbox" href="images/slice.jpeg"">
+	                		<img src="images/central.jpeg" alt="Card Image" class="card-img-top">
+	                	</a>
+	                    <div class="card-body">
+	                        <h6 style="font-family:Chalkduster, fantasy; font-size: 2em"><a href="#">Central Park</a></h6>
+	                        <p class="text-muted card-text">Lets get things tarted in Central Park.<br>A beautiful place to go to to take pictures or<br> if you just want to enjoy yourself.</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-md-6 col-lg-4">
+	                <div class="card border-0 transform-on-hover">
+						<a class="lightbox" href="images/times.jpeg">
+		                	<img src="images/times.jpeg" alt="Card Image" class="card-img-top">
+		                </a>
+	                    <div class="card-body">
+	                        <h6 style="font-family:Chalkduster, fantasy; font-size: 2em"><a href="#">Times Square</a></h6>
+	                        <p class="text-muted card-text">A beautiful and energetic area one must go to at night.<!-- Well I have a suggestion, have a bacon egg cheese sandwich. These are a staple food you see being sold in many delies, -->.</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-md-6 col-lg-4">
+	                <div class="card border-0 transform-on-hover">
+	                	<a class="lightbox" href="images/empire.jpeg">
+	                		<img src="images/empire.jpeg" alt="Card Image" class="card-img-top">
+	                	</a>
+	                    <div class="card-body">
+	                        <h6 style="font-family:Chalkduster, fantasy; font-size: 2em;"><a href="#">Empire State Building</a></h6>
+	                        <p class="text-muted card-text">A true tourist attraction. Empire State building is 102 sotires high of beutiful scenery.</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-md-6 col-lg-4">
+	                <div class="card border-0 transform-on-hover">
+	                	<a class="lightbox"  href="images/brodtheather.jpeg">
+	                		<img src="images/brodtheather.jpeg" alt="Card Image" class="card-img-top">
+	                	</a>
+	                    <div class="card-body">
+	                        <h6 style="font-family:Chalkduster, fantasy; font-size: 2em;"><a href="#">Broadway Theatre</a></h6>
+	                        <p class="text-muted card-text">You want to see the fine arts, come to broadway and join this chap in watching some of broadway'sfinest performances.</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-md-6 col-lg-4">
+	                <div class="card border-0 transform-on-hover">
+	                	<a class="lightbox" href="images/katzs.jpg">
+	                		<img src="images/katzs.jpg" alt="Card Image" class="card-img-top">
+	                	</a>
+	                    <div class="card-body">
+	                        <h6 style="font-family:Chalkduster, fantasy; font-size: 2em;"><a href="#">Katz's Delicatessen</a></h6>
+	                        <p class="text-muted card-text">One of New York's famous delicatessen's. Katz is known for it's pastrami sandwich that never dissapoints.</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-md-6 col-lg-4">
+	                <div class="card border-0 transform-on-hover">
+	                	<a class="lightbox" href="images/brooklyn.jpeg">
+	                		<img src="images/brooklyn.jpeg" alt="Card Image" class="card-img-top">
+	                	</a>
+	                    <div class="card-body">
+	                        <h6 style="font-family:Chalkduster, fantasy; font-size: 2em;"><a href="#">Brooklyn Bridge</a></h6>
+	                        <p class="text-muted card-text"> A great palce to travel as a tourist or anywhereis the Brooklyn Bridge. Take in the scenery and beauty of tbrooklyn..</p>
+
+
+	                    </div>
+	                </div>
+	            </div>
+	            <!-- <div class="col-md-6 col-lg-4">
+	                <div class="card border-0 transform-on-hover">
+	                	<a class="lightbox" href="images/statue.jpeg" height="300" width="400" alt="park" style="margin-left:100px">
+	                		<img src="images/statue.jpeg" alt="Card Image" class="card-img-top">
+	                	</a>
+	                    <div class="card-body">
+	                        <h6 style="font-family:Chalkduster, fantasy; font-size: 2em;"><a href="#">Statue of Liberty</a></h6>
+	                        <p class="text-muted card-text">One of the truly iconic and important buildings for anyone to go to is the statue of liberty.Such a great toursit sight.</p><
+	                    </div>
+	                </div>
+	            </div> -->
+	            <div class="col-md-6 col-lg-4">
+	                <div class="card border-0 transform-on-hover">
+	                	<a class="lightbox" href="images/radio.jpg">
+	                		<img src="images/radio.jpg" alt="Card Image" class="card-img-top">
+	                	</a>
+	                    <div class="card-body">
+	                        <h6 style="font-family:Chalkduster, fantasy; font-size: 2em;"><a href="#">Radio City Music Hall</a></h6>
+	                        <p class="text-muted card-text">A truly great place for music. The vibe< and scene will have you glue to your seat in awe and have your ear's yearning for more</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-md-6 col-lg-4">
+	                <div class="card border-0 transform-on-hover">
+	                	<a class="lightbox" href="images/coney.jpg">
+	                		<img src="images/coney.jpg" alt="Card Image" class="card-img-top">
+	                	</a>
+	                    <div class="card-body">
+	                        <h6 style="font-family:Chalkduster, fantasy; font-size: 2em;"><a href="#">Coney Island</a></h6>
+	                        <p class="text-muted card-text">Well a place where you can have so much fun.Enjoy yourself in this iconic area of new york,Coney island..</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-md-6 col-lg-4">
+	                <div class="card border-0 transform-on-hover">
+	                	<a class="lightbox" href="images/statue.jpeg">
+	                		<img src="images/statue.jpeg" alt="Card Image" class="card-img-top">
+	                	</a>
+	                    <div class="card-body">
+	                        <h6 style="font-family:Chalkduster, fantasy; font-size: 2em;"><a href="#">Statue of Liberty</a></h6>
+	                        <p class="text-muted card-text">One of the truly iconic and important buildings for anyone to go to is the statue of liberty.Such a great toursit sight</p>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.cards-gallery', { animation: 'slideIn'});
+    </script>
+<footer>
+  Copyright &copy; NosNYCJuuHeard 
+<br><a href = "mailto:nosobaseki@gmail.com">nosobaseki@gmail.com</a>
+</footer>
+</body>
+</html>

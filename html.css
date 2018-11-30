@@ -1,0 +1,496 @@
+.back {background-image: url("images/night.jpg");
+      background-repeat: no-repeat;
+               background-size: cover;
+              background-position: center center;
+               height:150vh;
+               width:100vw;
+               background-attachment: fixed;
+              width:100%;}
+h1 {text-align: center;
+    font-family: serif;}
+.right{float:right;
+       padding:20px;}
+d/*iv.scrollmenu {
+    background-color: #333 ;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {}
+  */
+
+ .container{
+ 	position: absolute;
+ 	left: 0;
+ 	top:0;
+ 	width: 100%;
+ 	height:100%; 
+ }
+ .hero {
+ 	height: 100%;
+ 	width: 150%;
+ 	background: url("night.jpg");
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: center center;
+
+ }
+
+.flex-container  {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    background-color: black;
+ }
+ .aligncenter{
+ 	text-align: center;
+ 	padding-bottom: 100px;
+ }
+ div {
+    width: 35px;
+    height: 5px;
+    /*background-color: black;*/
+    margin: 6px 0;
+}
+.intro {
+	text-align: center;
+}
+
+.introtext {
+	font-family:"Courier New", Courier, monospace, serif;
+	font-size: 3em;
+	padding-left: 90px;
+	text-shadow: 1px 1px rgba(255,255,255,0.8);
+}
+
+.introp{
+	font-family: Papyrus/*"Lucida Console", Monaco*/, monospace;
+	text-align: center;
+	font-size: 1.5em;
+}
+.sub {
+	background-image: url("images/trainstation.jpg");
+	background-repeat: no-repeat;
+               background-size: cover;
+              background-position: center center;
+               height:150vh;
+               width:100vw;
+               background-attachment: fixed;
+              width:100%;
+
+}
+.insidesub{
+	background-image: url("images/insidesub.jpg");
+	background-repeat: no-repeat;
+               background-size: cover;
+              background-position: center center;
+               height:150vh;
+               width:100vw;
+               background-attachment: fixed;
+              width:100%;
+
+}
+.foodintro {
+	       background-image: url("images/eat.jpeg");
+	       background-repeat: no-repeat;
+	       background-size: cover;
+	       background-position: center center;
+	       width: 100%;
+	       height:1000px;
+	       
+}
+.foodtext{
+	font-family:"Courier New", Courier, monospace, serif;
+	font-size: 2em;
+	padding-left: 90px;
+	text-shadow: 1px 1px rgba(255,255,255,0.8);
+	padding-top: 10px;
+}
+.travel {
+	 background-image: url("images/tourism.jpeg");
+	background-repeat: no-repeat;
+               background-size: cover;
+              background-position: center center;
+               height:1000px;
+               background-attachment: fixed;
+              width:100%;
+              color:white;
+    font-family:"Courier New", Courier, monospace, serif; 
+	font-size: 2em;
+}
+.flex-container     {display:flex;
+                      flex-direction:row;}
+.placetext {
+	font-family:"Courier New", Courier, monospace, serif;
+	font-size: 1em;
+}
+.title {
+	font-family:"Chalkduster", fantasy; 
+	font-size: 2em;
+}
+
+./*rows {display: flex;
+  flex:50%;
+  }*/
+  body {
+  margin: 0;
+  padding: 0;
+  background: #ccc;
+}
+ 
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display:inline-flex;
+    margin-right: -4px;
+    float: right;
+  }
+ 
+  /* Options 2 - Float
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
+  }
+  */
+}
+.sports {
+	background-image: url("images/neversleep.jpg");
+	       background-repeat: no-repeat;
+	       background-size: cover;
+	       background-position: center center;
+	       width: 100%;
+	       height:1000px
+}
+.sportstext{
+	font-family: Trattatello, fantasy;
+	font-size: 2em;
+}
+
+.para {
+  background-image: url("neversleep.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav{
+	background-color: #ffffff;
+	color:#000000;
+	list-style: none;
+	text-align: right;
+	padding: 20px 0 25px 0;}
+	.nav > li{
+		display: inline-block;
+		padding:0 25px 0 25px;
+	    font-family: "Chalkduster", fantasy;
+	    font-size: 15px;}
+		.nav > li > a {
+			text-decoration: none;
+			color:#000000;}
+	.nav > li > a:hover{
+		color:#c1c1c1;}
+	}
+	}
+}
+.logo {
+	color:#000000;
+	float: left;
+	padding-left:25px;
+	font-size:16px;
+	font-weight: bold;
+}
+.banner{
+	width:100%;
+	display:block;
+}
+.banner-image{
+	width:100%;
+	display: block;
+}
+.flex-contain     {display:flex;
+                      flex-direction:row;}
+
+ div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+.gallery-block{
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+
+.gallery-block .heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.gallery-block .heading h2{
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.gallery-block.cards-gallery h6 {
+  font-size: 17px;
+  font-weight: bold; 
+}
+
+.gallery-block.cards-gallery .card{
+  transition: 0.4s ease; 
+}
+
+.gallery-block.cards-gallery .card img {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15); 
+}
+
+.gallery-block.cards-gallery .card-body {
+  text-align: center; 
+}
+
+.gallery-block.cards-gallery .card-body p {
+  font-size: 15px; 
+}
+
+.gallery-block.cards-gallery a {
+  color: #212529; 
+}
+
+.gallery-block.cards-gallery a:hover {
+  text-decoration: none; 
+}
+
+.gallery-block.cards-gallery .card {
+  margin-bottom: 30px; 
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width: 576px) {
+
+	.gallery-block .transform-on-hover:hover {
+	    transform: translateY(-10px) scale(1.02);
+	    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important; 
+	}
+}
+/*body {
+  margin:0;
+  padding:0;
+  background: #e55039
+}
+.box{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
+}
+.box .b{
+  width:120px;
+  height: 120px;
+  border-radius:50%;
+  border-left:4px solid ;
+  border-right:4px solid ;
+  border-left:4px solid transparent !important;
+  border-left:4px solid transparent !important;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  animation: ro 2s infinite;
+}
+  .box .b1{
+    border-color:#4a69bd;
+    width:120px;
+    height: 120px;
+  }
+.box .b2{
+  border-color: #f6b93b;
+  width:100px;
+  height:100px;
+  animation-delay: 0.2s;
+}
+.box .b3{
+border-color: #2ecc71;
+  width:80px;
+  height:80px;
+  animation-delay: 0.4s;
+}
+.box .b4{
+border-color: #34495e;
+  width:60px;
+  height:60px;
+animation-delay: 0.6s;}
+
+@keyframes ro {
+  0%{
+     transform: translate(-50%, -50) rotate(0deg);
+}
+   50%{
+     transform: translate(-50%, -50) rotate(-180deg);
+   }
+     100%{
+     transform: tr*//*anslate(-50%, -50) rotate(0deg);*/
+
+  /*body{
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+  } 
+      .loading{
+        position: absolute;top:50%;
+        left: 50%;
+        transform: translate(-50,-50);
+        height: 40px;
+        display: flex;
+        align-items: center;
+      }
+      .obj{
+        width:6px;
+        height: 40px;
+        background: black;
+        margin: 0 3px;
+        border-radius: 10px;
+        animation:loading 0.8s infinite;
+      }
+      .obj:nth-child(2){
+        animation-delay: 0.1s;
+      }
+
+      .obj:nth-child(3){
+        animation-delay: 0.2s;
+      }
+      .obj:nth-child(4){
+        animation-delay: 0.3s;
+      }
+      .obj:nth-child(5){
+        animation-delay: 0.4s;
+      }
+      .obj:nth-child(6){
+        animation-delay: 0.5s;
+      }
+      .obj:nth-child(7){
+        animation-delay: 0.5s;
+      }
+      .obj:nth-child(8){
+        animation-delay: 0.7s;
+      }
+@keyframes loading{
+  0%{
+    height:0;
+  }
+}
+50%{
+  height:40px;
+}
+100%{
+  height:0;
+}
+*/
+.mack{background-image: url("images/nightlife.jpeg");
+      background-repeat: no-repeat;
+               background-size: cover;
+              background-position: center center;
+               height:150vh;
+               width:100vw;
+               background-attachment: fixed;
+              width:100%;}
+.rack {
+  background-image: url("images/day.jpeg");
+      background-repeat: no-repeat;
+               background-size: cover;
+              background-position: center center;
+               height:150vh;
+               width:100vw;
+               background-attachment: fixed;
+              width:100%;
+}
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: white;
+   color: black;
+   text-align: center;
+   font-family:"Chalkduster", fantasy;
+}
+footer a {
+    text-decoration: none;
+}

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cards Gallery</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
+<link rel="shortcut icon" href="images/favicon.png">
+	<style>
+		.gallery-block{
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+
+.gallery-block .heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.gallery-block .heading h2{
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.gallery-block.cards-gallery h6 {
+  font-size: 17px;
+  font-weight: bold; 
+}
+
+.gallery-block.cards-gallery .card{
+  transition: 0.4s ease; 
+}
+
+.gallery-block.cards-gallery .card img {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15); 
+}
+
+.gallery-block.cards-gallery .card-body {
+  text-align: center; 
+}
+
+.gallery-block.cards-gallery .card-body p {
+  font-size: 15px; 
+}
+
+.gallery-block.cards-gallery a {
+  color: #212529; 
+}
+
+.gallery-block.cards-gallery a:hover {
+  text-decoration: none; 
+}
+
+.gallery-block.cards-gallery .card {
+  margin-bottom: 30px; 
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width: 576px) {
+
+	.gallery-block .transform-on-hover:hover {
+	    transform: translateY(-10px) scale(1.02);
+	    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important; 
+	}
+}
+.nav{
+	background-color: #ffffff;
+	color:#000000;
+	list-style: none;
+	text-align: right;
+	padding: 20px 0 25px 0;}
+	.nav > li{
+		display: inline-block;
+		padding:0 25px 0 25px;
+	    font-family: "Chalkduster", fantasy;
+	    font-size: 15px;
+	}
+		.nav > li > a {
+			text-decoration: none;
+			color:#000000;
+			float: right;}
+	.nav > li > a:hover{
+		color:#c1c1c1;}
+	}
+	}
+}
+.logo {
+	color:#000000;
+	float: left;
+	padding-left:25px;
+	font-size:16px;
+	font-weight: bold;
+}
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: white;
+   color: black;
+   text-align: center;
+   font-family:"Chalkduster", fantasy;
+}
+footer a {
+    text-decoration: none;
+}
+	</style>
+</head>
+<body>
+	<ul class="nav">
+    <!-- <div class="logo">
+    <a href="#">NYC</a>
+  </div> -->
+       
+    
+    <li><a href="sport.html">Sports</a></li>
+    <li><a href="sites.html">Places</a></li>
+    <li><a href="gallery.html"> Food</a></li>
+    <li><a href="index.html"> Home</a></li>
+    <li style="float:right; font-weight:bold; font-size:40px; padding-bottom:50px;"><a href="#">NYC</a></li>
+  </ul>
+	
+	<section class="gallery-block cards-gallery">
+	    <div class="container">
+	        <div class="heading">
+	          <h2 style="font-family:Chalkduster, fantasy;">NYC FOOD</h2>
+	        </div>
+	        <div class="row">
+	            <div class="col-md-6 col-lg-4">
+	                <div class="card border-0 transform-on-hover">
+	                	<a class="lightbox" href="images/slice.jpeg"">
+	                		<img src="images/slice.jpeg"" alt="Card Image" class="card-img-top">
+	                	</a>
+	                    <div class="card-body">
+	                        <h6 style="font-family:Chalkduster, fantasy; font-size: 2em"><a href="#">Pizza</a></h6>
+	                        <p class="text-muted card-text">New York style pizza  is one of NYC's iconic foods. As someone who enjoys pizza. Thin but cheesy slice is more than enough to sooth you're cheesiest cravings.</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-md-6 col-lg-4">
+	                <div class="card border-0 transform-on-hover">
+						<a class="lightbox" href="images/bc.jpg">
+		                	<img src="images/bc.jpg"" alt="Card Image" class="card-img-top">
+		                </a>
+	                    <div class="card-body">
+	                        <h6 style="font-family:Chalkduster, fantasy; font-size: 2em"><a href="#">Bacon,Egg and Cheese</a></h6>
+	                        <p class="text-muted card-text">You ever needed breakfast in the morning and you are in a rush to go to somehwere but you dont have to time to make breakfast?.<!-- Well I have a suggestion, have a bacon egg cheese sandwich. These are a staple food you see being sold in many delies, -->.</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-md-6 col-lg-4">
+	                <div class="card border-0 transform-on-hover">
+	                	<a class="lightbox" href="images/halal.jpg"">
+	                		<img src="images/halal.jpg" alt="Card Image" class="card-img-top">
+	                	</a>
+	                    <div class="card-body">
+	                        <h6 style="font-family:Chalkduster, fantasy; font-size: 2em;"><a href="#">Halal Food Truck</a></h6>
+	                        <p class="text-muted card-text">You ever needed bite during lunch break but dont necessarily want to go to far away from your job or sschool in the afternoon.Well I have a suggestion,Halal food. Quick, delicious and affordable</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-md-6 col-lg-4">
+	                <div class="card border-0 transform-on-hover">
+	                	<a class="lightbox"  href="images/ices.jpg">
+	                		<img src="images/ices.jpg" alt="Card Image" class="card-img-top">
+	                	</a>
+	                    <div class="card-body">
+	                        <h6 style="font-family:Chalkduster, fantasy; font-size: 2em;"><a href="#">Ice's</a></h6>
+	                        <p class="text-muted card-text">One of New York's famous treats. People travel from all over the world to New York to eat Italian Ice's .</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-md-6 col-lg-4">
+	                <div class="card border-0 transform-on-hover">
+	                	<a class="lightbox" href="images/bagel.jpg">
+	                		<img src="images/bagel.jpg" alt="Card Image" class="card-img-top">
+	                	</a>
+	                    <div class="card-body">
+	                        <h6 style="font-family:Chalkduster, fantasy; font-size: 2em;""><a href="#">NYC Bagel</a></h6>
+	                        <p class="text-muted card-text">One of New York's famous treats. New York bagel contains salt and malt and is boiled in water before baking in a standard oven. The resulting bagel is puffy with a moist crustWhile also being very good they are  chewy and a bit on the fluffy side.</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-md-6 col-lg-4">
+	                <div class="card border-0 transform-on-hover">
+	                	<a class="lightbox" href="images/pretzel.jpg">
+	                		<img src="images/pretzel.jpg" alt="Card Image" class="card-img-top">
+	                	</a>
+	                    <div class="card-body">
+	                        <h6 style="font-family:Chalkduster, fantasy; font-size: 2em;><a href="#">Pretzel</a></h6>
+	                        <p class="text-muted card-text">Ever need a quick snack a bite on the way to go.Go with Pretzels. Pretzels can be found anywhere and everywhere. At deli's and carts so grab one and get a tasty and soft snack.</p>
+
+
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-md-6 col-lg-4">
+	                <div class="card border-0 transform-on-hover">
+	                	<a class="lightbox" href="images/clam.jpg">
+	                		<img src="images/clam.jpg" alt="Card Image" class="card-img-top">
+	                	</a>
+	                    <div class="card-body">
+	                        <h6 style="font-family:Chalkduster, fantasy; font-size: 2em;"><a href="#">Manhattan clam chowder</a></h6>
+	                        <p class="text-muted card-text">Ever need to warm up when its cold. Something to sooth you. Have some Manhattan clam chowder which is great to eat.</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-md-6 col-lg-4">
+	                <div class="card border-0 transform-on-hover">
+	                	<a class="lightbox" href="images/cheese.jpg">
+	                		<img src="images/cheese.jpg" alt="Card Image" class="card-img-top">
+	                	</a>
+	                    <div class="card-body">
+	                        <h6 style="font-family:Chalkduster, fantasy; font-size: 2em;""><a href="#">NYC Cheese Cake</a></h6>
+	                        <p class="text-muted card-text">New York cheesecake is known for its creamy, satiny texture. It's rich, dense and tall with a flat top  It's made with cream cheese, eggs, egg yolks and heavy cream or sour cream, to add richness and a smooth consistency.</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-md-6 col-lg-4">
+	                <div class="card border-0 transform-on-hover">
+	                	<a class="lightbox" href="images/dog.jpg">
+	                		<img src="images/dog.jpg" alt="Card Image" class="card-img-top">
+	                	</a>
+	                    <div class="card-body">
+	                        <h6 style="font-family:Chalkduster, fantasy; font-size: 2em;"><a href="#">NYC Hot dog</a></h6>
+	                        <p class="text-muted card-text">A hot dog in the Big Apple is traditionally topped with a spicy brown mustard and either sauerkraut or onions sautéed with tomato paste. The sauerkraut featured here gets an extra kick of flavor from chili powder and beer. Hot dogs will shock your system.</p>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.cards-gallery', { animation: 'slideIn'});
+    </script>
+<footer>
+  Copyright &copy; NosNYCJuuHeard 
+<br><a href = "mailto:nosobaseki@gmail.com">nosobaseki@gmail.com</a>
+</footer>
+</body>
+</html>
